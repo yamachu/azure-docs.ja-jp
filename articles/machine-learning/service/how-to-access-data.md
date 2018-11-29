@@ -76,7 +76,7 @@ ds = Datastore.get(ws, datastore_name='your datastore name')
 ```Python
 datastores = ws.datastores()
 for name, ds in datastores.items(),
-    print(name, ds.datastore_type)"
+    print(name, ds.datastore_type)
 ```
 
 便宜的に、登録済みのデータストアの 1 つをワークスペースの既定のデータストアとして設定します。
